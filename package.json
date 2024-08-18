@@ -1,0 +1,38 @@
+{
+  "name": "userfingerprints",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "@nuxt/content": "^2.13.2",
+    "@nuxt/image": "^1.7.0",
+    "@nuxt/types": "^2.18.1",
+    "@nuxtjs/i18n": "^8.3.3",
+    "@nuxtjs/sitemap": "^6.0.0-beta.1",
+    "@nuxtjs/tailwindcss": "latest",
+    "axios": "latest",
+    "nuxt": "^3.12.4",
+    "nuxt-aos": "^1.2.5",
+    "nuxt-gtag": "^2.1.0",
+    "nuxt-lazy-load": "^3.0.4",
+    "nuxt-security": "^2.0.0-rc.9",
+    "nuxt-webfontloader": "^1.1.0",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@nuxtjs/supabase": "latest",
+    "autoprefixer": "latest",
+    "postcss": "latest",
+    "tailwindcss": "latest",
+    "vite-plugin-vuetify": "latest",
+    "vuetify": "latest"
+  }
+}
